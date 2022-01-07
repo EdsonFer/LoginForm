@@ -6,19 +6,6 @@
 
 :root {
 	--white: #fff;
-	
-	--gray-50: #f7f8fa;
-	--gray-100: #e6e8eb;
-	--gray-200: #afb2b1
-	--gray-500: #808080;
-	--gray-800: #494d4b;
-
-	--green-500: #04d361;
-
-	--purple-300: #9f75ff;
-	--purple-400: #9164fa;
-	--purple-500: #8257e5;
-	--purple-800: #6f48c9;
 }
 
 @media (max-width: 1080px) {
@@ -33,8 +20,18 @@
 	}
 }
 
+html,
 body {
-	background: var(--gray-50);
+	background: linear-gradient(
+		90deg,
+		rgba(249, 249, 249, 1) 0%,
+		rgba(206, 173, 246, 1) 100%
+	);
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 body,
@@ -49,7 +46,12 @@ button {
 	cursor: pointer;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-weight: 700;
 	font-family: 'Rajdhani', sans-serif;
 	color: var(--gray-800);

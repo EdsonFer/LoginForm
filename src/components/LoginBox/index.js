@@ -33,7 +33,7 @@ export function LoginBox() {
 					</form>
 				</LoginCard>
 
-				<p className="createAccount">DON'T HAVE AN ACCOUNT?</p>
+				<a className="createAccount">DON'T HAVE AN ACCOUNT?</a>
 			</Container>
 
 			<Footer>KOLABS©2020 - ALL RIGHTS RESERVED</Footer>

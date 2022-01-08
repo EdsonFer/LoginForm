@@ -11,6 +11,7 @@ export const Container = styled.div`
 	.createAccount {
 		margin-top: -1.5rem;
 		color: #8330ac;
+		cursor: pointer;
 	}
 `;
 

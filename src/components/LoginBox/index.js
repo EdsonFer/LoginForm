@@ -1,42 +1,40 @@
-import { Container, Footer, Header, LoginCard } from './styles';
+import { Container, Footer, Header, LoginCard } from "./styles";
 
-import logo from '../../assets/logoLogin.svg';
+import logo from "../../assets/logoLogin.svg";
 
 export function LoginBox() {
-	return (
-		<>
-			<Container>
-				<Header>
-					<h1>Create</h1>
-					<strong>TECHNOLOGY</strong>
-				</Header>
+  return (
+    <>
+      <Container>
+        <Header>
+          <h1>Create</h1>
+          <strong>TECHNOLOGY</strong>
+        </Header>
+        <LoginCard>
+          <form className="form">
+            <img src={logo} />
+            <h2>LOGIN</h2>
 
-				<LoginCard>
-					<form className="form">
-						<img src={logo} />
+            <div>
+              <label>E-mail / Username</label>
+              <input type="text" name="email" />
+              <p>User Não encontrado</p>
+            </div>
 
-						<h2>LOGIN</h2>
+            <div>
+              <label>Senha</label>
+              <input type="password" name="password" />
+              <p>Senha nao Confere</p>
+            </div>
 
-						<div>
-							<label>E-mail / Username</label>
-							<input type="text" name="email" />
-							<p>User Não encontrado</p>
-						</div>
+            <button>ENTRAR</button>
+          </form>
+        </LoginCard>
 
-						<div>
-							<label>Senha</label>
-							<input type="password" name="password" />
-							<p>Senha nao Confere</p>
-						</div>
+        <a className="createAccount">DON'T HAVE AN ACCOUNT?</a>
+      </Container>
 
-						<button>ENTRAR</button>
-					</form>
-				</LoginCard>
-
-				<a className="createAccount">DON'T HAVE AN ACCOUNT?</a>
-			</Container>
-
-			<Footer>KOLABS©2020 - ALL RIGHTS RESERVED</Footer>
-		</>
-	);
+      <Footer>KOLABS©2020 - ALL RIGHTS RESERVED</Footer>
+    </>
+  );
 }

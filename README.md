@@ -1,4 +1,4 @@
-<img src="src/assets/loginform.png" width="1000px" height="500px" />
+<img src="src/assets/loginform.png" width="auto" height="auto" />
 
 ## 🧪 Tecnologias
 

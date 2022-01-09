@@ -9,6 +9,9 @@ export const Container = styled.div`
   align-items: center;
 
   .createAccount {
+    font-size: 10px;
+    line-height: 16px;
+    text-decoration: underline;
     margin-top: -1.5rem;
     color: #8330ac;
     cursor: pointer;
@@ -44,6 +47,7 @@ export const LoginCard = styled.div`
   margin: 0 auto;
   margin-top: -50px;
   width: 264px;
+  height: 360px;
   background-image: linear-gradient(
     -180deg,
     rgba(243, 242, 249, 1) 0%,
@@ -62,8 +66,8 @@ export const LoginCard = styled.div`
     letter-spacing: 0.2rem;
 
     img {
-      width: 150px;
-      height: 150px;
+      width: 100px;
+      height: 100px;
     }
 
     h2 {
@@ -90,9 +94,9 @@ export const LoginCard = styled.div`
       cursor: pointer;
       position: relative;
       width: 220px;
-      padding: 1rem;
+      height: 37px;
       border-radius: 3.75rem;
-      font-size: 1.5rem;
+      font-size: 14px;
       border: none;
       background-image: linear-gradient(
         -180deg,
@@ -138,6 +142,7 @@ export const LoginCard = styled.div`
 
       input {
         width: 220px;
+        height: 36px;
         padding: 1rem;
         border-radius: 30px;
         outline: none;

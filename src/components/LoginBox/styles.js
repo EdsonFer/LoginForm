@@ -65,6 +65,10 @@ export const LoginCard = styled.div`
     margin-top: -20px;
     letter-spacing: 0.2rem;
 
+    @media (max-width: 720px) {
+      gap: 0;
+    }
+
     img {
       width: 100px;
       height: 100px;
